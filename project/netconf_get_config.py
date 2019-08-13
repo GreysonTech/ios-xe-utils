@@ -5,7 +5,7 @@
  > pip install lxml ncclient
 
  Running script: (save as example.py)
- > python example.py -a 192.168.131.135 -u netconf -p netconf --port 830
+ > python example.py -a 192.168.1.1 -u netconf -p netconf --port 830
 """
 
 

@@ -1,0 +1,12 @@
+<config xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <ap-cfg-data xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-wireless-ap-cfg">
+    <ap-tags>
+      <ap-tag>
+        <ap-mac>00:1f:9e:28:85:50</ap-mac>
+        <policy-tag>example-policy-tag</policy-tag>
+        <site-tag>example-site-tag</site-tag>
+        <rf-tag>example-rf-tag</rf-tag>
+      </ap-tag>
+    </ap-tags>
+  </ap-cfg-data>
+</config>

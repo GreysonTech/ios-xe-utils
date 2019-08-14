@@ -1,5 +1,18 @@
 #!/bin/bash
 
+
+# Simple shell script used by Vagrant to provision Ubuntu 18.04 LTS server
+# as a development environment.
+#
+# The provisioning flow was adapted from Cisco's DevNet setup of a local
+# development environment to use while following their Learning Labs.
+# https://developer.cisco.com/learning-labs/setup/
+#
+# Included is the initial setup of YangExplorer,
+# based on their installation instructions.
+# https://github.com/CiscoDevNet/yang-explorer
+
+
 echo ""
 echo " ***** Begin shell provisioning script ***** "
 echo ""
@@ -27,7 +40,8 @@ sudo apt-get install python3-pip -y
 
 # Install virtualenv
 pip install virtualenv
-pip3 install virtualenv
+pip install --upgrade pip
+pip3 install --upgrade pip
 sudo apt-get install python3-venv -y
 
 # Create default virtual environments
